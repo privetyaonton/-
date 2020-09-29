@@ -9,6 +9,6 @@ int main()
 	y1 = pow(x, 2) + sin(x) + 3 * sqrt(cos(2 * x));
 	y2 = (3 * log(x)) / 2;
 	y = y1 / y2;
-	printf_s("\n%f", y);
+	printf_s("%f", y);
 	return 0;
 }
