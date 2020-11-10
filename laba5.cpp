@@ -1,15 +1,11 @@
-﻿#include <iostream>
-#include <locale.h>
-
+#include <iostream>
 int main()
 {
 	int a[100][100], i, j, n;
 	scanf_s("%d", &n);
 	for (i = 0; i < n; i++)
 		for (j = 0; j < n; j++)
-		{
 			scanf_s("%d", &a[i][j]);
-			
 	int k = 0;
 	int s = 0;
 	if (n % 2 == 0)
